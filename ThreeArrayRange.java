@@ -13,7 +13,7 @@ public class ThreeArrayRange {
             less = a[1];
         }
         if (less > a[2]){
-            less = a[2]
+            less = a[2];
         }
         System.out.println(nums-less);
     }
