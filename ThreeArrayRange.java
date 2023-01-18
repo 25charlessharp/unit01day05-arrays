@@ -1,6 +1,6 @@
 public class ThreeArrayRange {
     public static void main(String[] args) {
-        int[] a = {2, 1, 3};
+        int[] a = {2, 2, 2};
         int nums = a[0];
         int less = a[0];
         if (nums < a[1]){
