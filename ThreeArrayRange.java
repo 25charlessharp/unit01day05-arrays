@@ -1,5 +1,20 @@
 public class ThreeArrayRange {
     public static void main(String[] args) {
         int[] a = {2, 1, 3};
+        int nums = a[0];
+        int less = a[0];
+        if (nums < a[1]){
+            nums = a[1];
+        }
+        if (nums < a[2]){
+            nums = a[2];
+        }
+        if (less > a[1]){
+            less = a[1];
+        }
+        if (less > a[2]){
+            less = a[2]
+        }
+        System.out.println(nums-less);
     }
 }
