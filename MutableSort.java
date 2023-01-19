@@ -26,7 +26,9 @@ public class MutableSort {
             between = place2;
             largest = place;
         }
-        int[] sortedArray = new int[] {smallest, between, largest};
-        System.out.println(Arrays.toString(sortedArray));
+        a[0] = smallest;
+        a[1] = between;
+        a[2] = largest;
+        System.out.println(Arrays.toString(a));
     }
 }
