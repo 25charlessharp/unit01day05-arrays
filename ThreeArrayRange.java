@@ -1,3 +1,4 @@
+// TODO: talk to me about this submission... it seems way too similar to danny's (logic, variable names, etc) to believe it was the product of your brain
 public class ThreeArrayRange {
     public static void main(String[] args) {
         int[] a = {2, 2, 2};
